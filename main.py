@@ -2,10 +2,6 @@
 Labb 4 Reader-Writers problem
 """
 
-"""
-Använde en klass med metoder för det som trådarna ska kunna göra 
-Källa: https://cppsecrets.com/users/120612197115104981111171149751485164103109971051084699111109/Python-Implementation-of-Reader-Writer-Solution-using-Semaphore.php
-"""
 from threading import Lock, Semaphore, Thread
 from datetime import datetime
 
